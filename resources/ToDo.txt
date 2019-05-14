@@ -1,0 +1,69 @@
+ToDo - List of things that need to be done
+
+May 8th:
+FOR GG:
+
+- In all the forms we will have to describe the fields, as I did in /orderproducts/1/edit?id=1
+
+- Unify style across all pages of the site.
+
+- Connect CRUDs with admin interface.
+
+
+FOR GL:
+
+- Rewview page
+
+- Check number on cart after login.
+
+- Orders: field date is not saved in db. ==> Check if fixed.
+
+
+***********
+* PENDING *
+***********
+
+
+- CHAT
+
+- PAYPAL
+
+- Customer change password
+
+- In the registration form, when there are errors we don't get the messages with red color.
+
+- When user logged in and clicks the "Pizza Margherita" (/home) link he goes to menu not home. 
+>>>> It's not a bug, it's a feature!!! I did this on purpose, We need to discuss about this.
+
+*****************
+* D I S C U S S *
+*****************
+
+- We should replace all the products with pizzas only.
+
+- in login page change the input type from "text" to "email" ==> Do we really need the username to be email?
+
+
+
+
+
+
+
+
+
+*******************
+* F I N I S H E D *
+*******************
+
+
+
+
+*** CRUD Users ==> Update still has problems & user roles. -==> FIXED
+
+*** Address CRUD??????? ==> FIXED
+
+*** SOS: If user has proceeds to checkout but he is not logged in, we should redirect him to /login first and then to /review. ==> FIXED
+
+- sessionStorage and localStorage ==> NOT NEEDED
+
+
